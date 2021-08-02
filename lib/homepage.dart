@@ -125,19 +125,6 @@ class _HomepageState extends State<Homepage> {
                     )
                   ),
                   child: Text("Login")),
-              SizedBox(height: 10),
-              ElevatedButton(onPressed: (){},
-
-                  style: ElevatedButton.styleFrom(
-
-                      minimumSize: Size(365, 52),
-                      shadowColor: Colors.blueGrey,
-                      shape: RoundedRectangleBorder(
-
-                          borderRadius: BorderRadius.circular(20)
-                      )
-                  ),
-                  child: Text("SignUp"))
             ],
           ),
         ),
